@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="title">Pomodoro Timer</div>
+
+<div id="controls">
+  <div>
+    <div id="controls-startstop">
+      <button id="startstop">Start/Stop</button>
+      <button id="reset">Reset</button>
+    </div>
+  </div>
+  <div>
+    <div id="controls-time">
+      Work <input id="work-time" type="number" min="1" max="60" step="1" value="25"> mins
+      &nbsp;&nbsp;
+      Break <input id="break-time" type="number" min="1" max="60" step="1" value="5"> mins
+    </div>
+  </div>
+</div>
+<div id="face">
+  <div id="phase"></div>
+  <div id="time"></div>
+</div>
+<canvas id="canvas" width="300" height="300"></canvas>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

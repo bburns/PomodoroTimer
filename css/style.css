@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+
+body {
+  background-color: #222;
+  color: #ccc;
+  font-family: Lato, sans-serif;
+  font-size: 0.9em;
+  margin: 0;
+  padding: 0;
+}
+
+button, input {
+  background: #222;
+  color: #ccc;
+  border: 1px solid #333;
+}
+button {
+  height: 2em;  
+}
+
+
+#title {
+  text-align: center;
+  background: #111;
+  border-bottom: 2px solid #000;
+  color: #aaa;
+  font-size: 1.6em;
+}
+
+
+#controls {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+#controls-startstop {
+  display: inline-block;
+  height: 2.2em;
+}
+#controls-time {
+  display: inline-block;
+  margin-bottom: 1em;
+}
+#work-time, #break-time {
+  width: 3em;
+}
+
+#canvas {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -150px;
+  margin-left: -150px;
+}
+
+#face {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  margin-top: -1.2em;
+  text-align: center;
+  font-size: 2em;
+  color: gray;
+}
+
+
